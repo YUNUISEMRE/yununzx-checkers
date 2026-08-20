@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: yununzx-checkers
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
